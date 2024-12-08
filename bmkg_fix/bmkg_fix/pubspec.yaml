@@ -1,0 +1,46 @@
+name: bmkg_fix
+description: "A new Flutter project."
+
+# Prevent package from being accidentally published
+publish_to: 'none'
+
+# Versioning
+version: 1.0.0+1
+
+# Dart and Flutter SDK version
+environment:
+  sdk: ">=3.5.4 <4.0.0"
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  ripple_wave: ^0.1.4
+  intl: ^0.19.0
+  geolocator: ^10.1.0
+  geocoding: ^3.0.0
+  curved_navigation_bar: ^1.0.3
+  http: ^0.13.6
+  supabase_flutter: ^2.8.1
+  url_launcher: ^6.1.9
+  shared_preferences: ^2.2.0
+  latlong2: ^0.8.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Define assets
+  assets:
+    - assets/fonts/poppins_medium.ttf
+
+  # Fonts
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins_medium.ttf
